@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    .orange-bar {
+        background-color: orange;
+        text-align: center;
+        padding: 20px;
+        color: white;
+    }
+
+    .black-bar {
+        background-color: black;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        background-color: green;
+        margin: 5px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .gray-bar {
+        background-color: gray;
+        height: 100px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
